@@ -24,27 +24,3 @@ Create a template HTML file called index.html that will take the mars data dicti
 
 
 
-
-
-
-
-
-
-
-
-
-
-Flask:
-
-A python script to run all of the scraping code was designed and all of the scraped data was put into one Python dictionary.
-
-'/scrape' route which will import the Python script and call the scrape function was created.
-
-MongoDB:
-
-A new database and a new collection was created.
-All of the scraped data was stored in the above created database.
-Root route / that will query the database and pass the mars data into HTML template was created.
-HTML and BootStrap:
-
-Finally a HTML file called 'index.html' was created that displayed all of the data in HTML elements.
